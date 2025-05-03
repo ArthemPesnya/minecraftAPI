@@ -9,6 +9,7 @@
 
 |Ресурс|Описание|
 |---:|:---|
+|[Minecraft_Tools_1_19_Python_3_10](./Minecraft_Tools_1_19_Python_3_10)| Искодники поставляемые из книги [сервер для Minecraft 1.19 Spigot и плагин  RaspberryJuice](https://disk.yandex.ru/d/he_W8RpxhfYYkw), там же minecraftAPI для урпвления серером через API |
 |[docs](./docs)| Документация по проекту|
 
 # Правила офомления коммитов и веток
