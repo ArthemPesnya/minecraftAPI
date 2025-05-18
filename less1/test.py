@@ -5,7 +5,7 @@ from collections import namedtuple
 from pathlib import Path
 from time import sleep
 
-sys.path.append("C:\\Users\\pesny\\projects\\learning\\game-dev\\minecraft\\Minecraft_Tools_1_19_Python_3_10\\Minecraft_Tools_1_19_Python_3_10\\minecraftPythonAPI\\py3minepi-master")
+sys.path.append("..\\Minecraft_Tools_1_19_Python_3_10\\Minecraft_Tools_1_19_Python_3_10\\minecraftPythonAPI\\py3minepi-master")
 
 import mcpi.minecraft as minecraft
 craft = minecraft.Minecraft.create(address="minecraft-server.hcloud")
