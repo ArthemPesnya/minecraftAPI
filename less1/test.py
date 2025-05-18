@@ -9,7 +9,6 @@ sys.path.append("..\\Minecraft_Tools_1_19_Python_3_10\\Minecraft_Tools_1_19_Pyth
 
 import mcpi.minecraft as minecraft
 craft = minecraft.Minecraft.create(address="minecraft-server.hcloud")
-craft.postToChat("Мини игра найди три секретный места успешно загружено, все :-) можно искать!")
 
 Cor = namedtuple("Cor",["x","y","z"])
 game_location = Cor(x=-15,y=13,z=-16)
@@ -34,6 +33,7 @@ while True:
     finally:
         if ( len(players) > 0 and find_once_loc is None):
             print("Подключились новые игроки")
+            craft.postToChat("Мини игра найди три секретный места успешно загружено, все :-) можно искать!")
             find_once_loc = Cor(x=None,y=None,z=None)
 
         
